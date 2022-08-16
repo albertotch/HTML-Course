@@ -1,0 +1,30 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.flex{
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-bottom: 4px;
+}
+.container-element{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 6px;
+  margin-top: 8px;
+}
+.counter{
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+
+  padding: 1px 8px 1px 8px;
+  border-radius: 30px;
+}
+

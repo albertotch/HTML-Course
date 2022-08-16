@@ -1,0 +1,67 @@
+div{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+  
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+
+  padding: 10px 10px 10px 10px;
+  border-radius: 4px;
+}
+.profile-picture-container{
+  margin-right: 10px;
+  width: 50px;
+}
+.profile-picture{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+.tweet-header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  padding-top: 4px;
+}
+.user-profile-name{
+  margin-right: 4.75px;
+  font-weight: 600;
+}
+.username{
+  color: rgb(100, 100, 100);
+}
+.tweet-content{
+  margin-bottom: 10px;
+  font-size: 15.5px;
+}
+.video-preview{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.thumbnail-column {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 12px;
+}
+.video-info-column {
+  flex: 1;
+}
+
+.video-website {
+  color: rgb(111, 111, 111);
+  margin-bottom: 3px;
+}
+
+.video-title {
+  line-height: 22px;
+}

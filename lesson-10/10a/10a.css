@@ -1,0 +1,41 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile-picture,
+.profile-container,
+.button-container{
+  display: inline-block;
+  vertical-align: middle;
+}
+.profile-picture{
+  margin-right: 10px;
+}
+img{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.profile-container{
+  width: 150px;
+  font-size: 14px;
+}
+.profile-name{
+  margin-bottom: 2px;
+}
+.profile-username{
+  margin-bottom: 2px;
+  color: rgb(200, 200, 200);
+}
+.profile-description{
+  margin-bottom: 2px;
+  color: rgb(200, 200, 200);
+}
+button{
+  border: none;
+  padding: 8px 12px 8px 12px;
+  border-radius: 4px;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+}

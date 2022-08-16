@@ -1,0 +1,37 @@
+.main-container{
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: blueviolet;
+  color: white;
+  height: 60px;
+  width: 1000px;
+
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.text{
+  font-size: 16px;
+  font-weight: bold;
+}
+.search-bar{
+  border-radius: 40px;
+  width: 500px;
+  border: none;
+
+  padding: 8px 20px 8px 20px;
+}
+.download-button{
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  border: 0.7px solid white;
+
+  padding: 6px 14px 6px 14px;
+
+  cursor: pointer;
+}
